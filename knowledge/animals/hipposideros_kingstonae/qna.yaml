@@ -1,7 +1,7 @@
 version: 2
 task_description: 'Teach the model about the latest bats'
 created_by: HeathHolcomb1409
-domain: animals
+domain: hipposideros kingstonae
 seed_examples:
  - question: Who was hipposideros kingstonae named after?
    answer: |
@@ -34,6 +34,6 @@ seed_examples:
      Hipposideros kingstonae was first described in 2023
 document:
  repo: https://github.com/HeathHolcomb1409/instructlab_knowledge.git
- commit: bca4400bcd405b915bd3965a9ab6c16429ea6eda
+ commit: 4934d0c3c
  patterns:
   - hipposideros_kingstonae.md
