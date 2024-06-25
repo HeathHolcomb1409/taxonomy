@@ -1,0 +1,39 @@
+version: 2
+task_description: 'Teach the model about the latest bats'
+created_by: HeathHolcomb1409
+domain: animals
+seed_examples:
+ - question: Who was hipposideros kingstonae named after?
+   answer: |
+     Hipposideros kingstonae was named after Tigga Kingston in honor of her
+     work for bat conversation in Southeast Asia.
+ - question: Where is hipposideros kingstonae found?
+   answer: |
+     Hipposideros kingstonae is found in five main locations across
+     Southeastern Asia;  two forests in Thailand – Hala Forest in Yala
+     Province, and Phru To Daeng Swamp Forest in Narathiwat Province – one
+     from Malaysia at Krau Wildlife Reserve in Pahang, and two in Sabah, Borneo
+     at Madai Caves and Gunung Kinabalu.
+ - question: To which bats is hipposideros kingstonae related?
+   answer: |
+     Based on mitochondrial DNA data, hipposideros kingstonae is most
+     closely related to Hipposideros bicolor and Hipposideros kunzi.
+ - question: How can hipposideros kingstonae be distinguished from other Hipposideros bats?
+   answer: |
+     Hipposideros kingstonae can be distinguished from other Hipposideros
+     by differences in external, bacular, and craniodental morphology,
+     as well as their echolocation call frequency, which is, at maximum,
+     132.3–144.0 kHz, varying in those found in Borneo and those found in
+     the Thai-Malaysian area.
+ - question: Is hipposideros kingstonae larger or smaller than hipposideros einnaythu?
+   answer: |
+     However, Hipposideros einnaythu is slightly larger and differs in details
+     of the noseleaf and baculum.
+ - question: When was hipposideros kingstonae first described?
+   answer: |
+     Hipposideros kingstonae was first described in 2023
+document:
+ repo: https://github.com/HeathHolcomb1409/instructlab_knowledge.git
+ commit: bca4400bcd405b915bd3965a9ab6c16429ea6eda
+ patterns:
+  - hipposideros_kingstonae.md
